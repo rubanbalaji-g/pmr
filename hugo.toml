@@ -1,20 +1,27 @@
-baseURL = "https://example.com/"
+baseURL = "https://pmr.pedianotes.in/"
 locale = "en"
-title = "My Digital Garden"
-[pagination]
-  pagerSize = 50
+title = "PMR TEST SITE"
+paginate = 50
 pluralizeListTitles = false
 
 [params]
-  description = "A fast, modern knowledge base synced directly from Obsidian."
-  author = "Your Name"
-  siteName = "Digital Garden"
-  accentColor = "#00a868"
+  description = "High-Yield Pediatric OSCE Stations & Exam Practice"
+  author = "Dr. Rubanbalaji"
+  siteName = "PMR TEST SITE"
   baseTheme = "dark"
-
-[[params.navLinks]]
-  name = "Home"
-  url = "/"
+  accentColor = "#f8df3a"
+  fontFamily = "system"
+  customFontUrl = ""
+  obsidianThemeCssUrl = ""
+  maxContentWidth = 860
+  showSidebar = true
+  showTocByDefault = true
+  showCreatedTimestamp = true
+  showUpdatedTimestamp = true
+  timestampFormat = "DD MMM YYYY"
+  showNoteIcons = true
+  computeBacklinks = true
+  generateTagIndex = true
 
 [markup]
   [markup.goldmark]
